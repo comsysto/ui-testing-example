@@ -1,4 +1,4 @@
-package com.comsysto.uitestingexample;
+package com.comsysto.ui.testing.simple;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

@@ -1,7 +1,15 @@
-<suite name="Test-method Suite" parallel="methods" thread-count="5" >
-    <test name="Test-method test" group-by-instances="true">
+<suite name="UI Testing" parallel="methods" thread-count="10">
+
+    <!--<test name="Simple Login Tests" group-by-instances="true">-->
+        <!--<classes>-->
+            <!--<class name="com.comsysto.ui.testing.simple.LoginTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <test name="Selenium Tests">
         <classes>
-            <class name="com.comsysto.uitestingexample.LoginTest" />
+            <class name="com.comsysto.ui.testing.selenium.tests.TimeSavingTest"/>
         </classes>
     </test>
+
 </suite>

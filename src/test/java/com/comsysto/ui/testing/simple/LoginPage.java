@@ -1,4 +1,4 @@
-package com.comsysto.uitestingexample;
+package com.comsysto.ui.testing.simple;
 
 public class LoginPage {
 
@@ -15,7 +15,7 @@ public class LoginPage {
 
         // Pretending to call the real website
         try {
-            Thread.sleep(10 * 1000);
+            Thread.sleep(5 * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
