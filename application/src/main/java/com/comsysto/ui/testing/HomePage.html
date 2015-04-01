@@ -19,7 +19,7 @@
                         <div class="pull-left text-right padding-right-sm">
                             <div class="text-center">
                                 <strong>Time saved per user: </strong><br>
-                                <input type="text" wicket:id="timePerUser"/> seconds
+                                <input type="text" wicket:id="timePerUser" data-description="time-per-user" /> seconds
                             </div>
                         </div>
                         <div class="pull-left padding-right-sm">
@@ -28,11 +28,11 @@
                         </div>
                         <div class="pull-left padding-right-sm">
                             <strong>Amount users per day:</strong><br>
-                            <input type="text" wicket:id="amountUsers"/> users
+                            <input type="text" wicket:id="amountUsers" data-description="amount-users" /> users
                         </div>
                         <div class="pull-left text-left">
                             <br>
-                            <input type="submit" wicket:id="submit" value="Calculate"/>
+                            <input type="submit" wicket:id="submit" value="Calculate" data-description="calculate"/>
                         </div>
                     </form>
                 </div>
@@ -43,7 +43,7 @@
             <wicket:container wicket:id="results">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div role="alert" class="alert alert-success">
+                        <div role="alert" class="alert alert-success" data-description="results">
                             <h3>Wow!</h3>
                             You save the world
                             <strong><span wicket:id="resultInSecondsPerDay"></span> seconds</strong> each day!<br>
