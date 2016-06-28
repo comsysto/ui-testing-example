@@ -16,4 +16,8 @@ cd ..
 
 mvn clean install
 
+#### License
+
+  * Code Licensed under the [MIT License](./LICENSE.md)
+
 Please mail comments to Elisabeth.Engel@comsysto.com!
