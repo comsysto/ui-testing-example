@@ -18,6 +18,8 @@ mvn clean install
 
 #### License
 
-  * Code Licensed under the [MIT License](./LICENSE.md)
+Code Licensed under the [MIT License](./LICENSE.md)
 
-Please mail comments to Elisabeth.Engel@comsysto.com!
+#### Contact
+
+Feel free to contact me at Elisabeth.Engel@comsysto.com for any remarks. 
