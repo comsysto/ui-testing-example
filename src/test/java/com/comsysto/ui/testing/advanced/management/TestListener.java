@@ -1,4 +1,4 @@
-package com.comsysto.ui.testing.selenium.management;
+package com.comsysto.ui.testing.advanced.management;
 
 import org.testng.*;
 
@@ -39,6 +39,8 @@ public class TestListener extends TestListenerAdapter {
 
     @Override
     public void onTestFailure(ITestResult result) {
+
+        super.onTestFailure(result);
 
         if (result.getMethod().getRetryAnalyzer() != null) {
             RetryAnalyser retryAnalyzer = (RetryAnalyser)result.getMethod().getRetryAnalyzer();

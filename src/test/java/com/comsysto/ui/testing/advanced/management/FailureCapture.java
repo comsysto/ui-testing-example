@@ -1,4 +1,4 @@
-package com.comsysto.ui.testing.selenium.management;
+package com.comsysto.ui.testing.advanced.management;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

@@ -1,4 +1,4 @@
-package com.comsysto.ui.testing.selenium.pages;
+package com.comsysto.ui.testing.advanced.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

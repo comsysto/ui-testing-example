@@ -2,7 +2,7 @@
 
     <test name="Selenium Tests">
         <classes>
-            <class name="com.comsysto.ui.testing.selenium.tests.TimeSavingTest"/>
+            <class name="com.comsysto.ui.testing.advanced.tests.TimeSavingTest"/>
         </classes>
     </test>
 

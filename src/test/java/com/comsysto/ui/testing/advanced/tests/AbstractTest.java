@@ -1,10 +1,11 @@
-package com.comsysto.ui.testing.selenium.tests;
+package com.comsysto.ui.testing.advanced.tests;
 
-import com.comsysto.ui.testing.selenium.management.FailureCapture;
-import com.comsysto.ui.testing.selenium.management.TestListener;
-import com.comsysto.ui.testing.selenium.management.WebDriverManager;
+import com.comsysto.ui.testing.advanced.management.FailureCapture;
+import com.comsysto.ui.testing.advanced.management.TestListener;
+import com.comsysto.ui.testing.advanced.management.WebDriverManager;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -19,7 +20,8 @@ public class AbstractTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setup() {
-        webDriver = new FirefoxDriver();
+        ChromeDriverManager.getInstance().setup();
+        webDriver = new ChromeDriver();
         WebDriverManager.setWebDriver(webDriver);
     }
 

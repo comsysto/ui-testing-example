@@ -1,7 +1,7 @@
-package com.comsysto.ui.testing.selenium.tests;
+package com.comsysto.ui.testing.advanced.tests;
 
-import com.comsysto.ui.testing.selenium.management.TestListener;
-import com.comsysto.ui.testing.selenium.pages.TimeSavingPage;
+import com.comsysto.ui.testing.advanced.management.TestListener;
+import com.comsysto.ui.testing.advanced.pages.TimeSavingPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
